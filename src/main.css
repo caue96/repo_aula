@@ -1,0 +1,95 @@
+main{
+    flex: 1;
+    margin-left: 50px;
+}
+
+main ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    list-style: none;
+}
+
+main ul .dev-item{
+    background: #ffffff;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+main ul li header img{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+main ul li header{
+    display: flex;
+    align-items: center;
+}
+
+main ul li header .dev-info{
+    margin-left: 10px;
+}
+
+.dev-info strong{
+    color: #333;
+    font-size: 16px;
+}
+
+.dev-info .dev-techs{
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+
+.dev-bio{
+    font-size: 14px;
+    color: 666;
+    line-height: 20px;
+    margin: 20px 0px;
+}
+
+.dev-goals{
+    font-size: 14px;
+    color: 666;
+    line-height: 20px;
+    margin: 20px 0px;
+}
+
+.dev-item a{
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}  
+
+.dev-item a:hover{
+    color: green;
+}
+
+main .search{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+main button{
+    background: darkseagreen;
+    border: 0px;
+    height: 40px;
+    width: 25%;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 700;
+    color: honeydew;
+    cursor: pointer;
+    padding: auto 20px;
+}
+
+main button:hover{
+    color: hotpink;
+    background-color: indianred;
+}
+
+main input{
+    width: 100%;
+    padding: 5px;
+}
