@@ -14,6 +14,6 @@ module.exports = {
     });
 
     console.log(techs, name);
-    return res.json({devs})
+    return res.json({ devs })
   }
 }
